@@ -1,0 +1,872 @@
+[
+    {
+        "name": "手机",
+        "children": [
+            {
+                "name": "Xiaomi MIX系列",
+                "pic": "/images/category/1.webp"
+            },
+            {
+                "name": "Xiaomi MIX系列",
+                "pic": "/images/category/1.webp"
+            },
+            {
+                "name": "Xiaomi MIX系列",
+                "pic": "/images/category/1.webp"
+            },
+            {
+                "name": "Xiaomi MIX系列",
+                "pic": "/images/category/1.webp"
+            },
+            {
+                "name": "Xiaomi MIX系列",
+                "pic": "/images/category/1.webp"
+            },
+            {
+                "name": "Xiaomi MIX系列",
+                "pic": "/images/category/1.webp"
+            }
+        ]
+    },
+    {
+        "name": "电视",
+        "children": [
+            {
+                "name": "小米电视 S Pro Mini LED",
+                "pic": "/images/category/2.webp"
+            },
+            {
+                "name": "小米电视 S Pro Mini LED",
+                "pic": "/images/category/2.webp"
+            },
+            {
+                "name": "小米电视 S Pro Mini LED",
+                "pic": "/images/category/2.webp"
+            },
+            {
+                "name": "小米电视 S Pro Mini LED",
+                "pic": "/images/category/2.webp"
+            },
+            {
+                "name": "小米电视 S Pro Mini LED",
+                "pic": "/images/category/2.webp"
+            },
+            {
+                "name": "小米电视 S Pro Mini LED",
+                "pic": "/images/category/2.webp"
+            },
+            {
+                "name": "小米电视 S Pro Mini LED",
+                "pic": "/images/category/2.webp"
+            }
+        ]
+    },
+    {
+        "name": "家电",
+        "children": [
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            },
+            {
+                "name": "壁挂空调",
+                "pic": "/images/category/3.webp"
+            }
+        ]
+    },
+    {
+        "name": "笔记本 平板",
+        "children": [
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            },
+            {
+                "name": "Redmi Pad SE",
+                "pic": "/images/category/4.webp"
+            }
+        ]
+    },
+    {
+        "name": "出行 穿戴",
+        "children": [
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            },
+            {
+                "name": "小米手环8 Pro 原神定制版",
+                "pic": "/images/category/5.webp"
+            }
+        ]
+    },
+    {
+        "name": "耳机 音响",
+        "children": [
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            },
+            {
+                "name": "Redmi Buds 5 Pro",
+                "pic": "/images/category/6.webp"
+            }
+        ]
+    },
+    {
+        "name": "健康 儿童",
+        "children": [
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            },
+            {
+                "name": "洗手机",
+                "pic": "/images/category/7.webp"
+            }
+        ]
+    },
+    {
+        "name": "生活 箱包",
+        "children": [
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            },
+            {
+                "name": "小背包",
+                "pic": "/images/category/8.webp"
+            }
+        ]
+    },
+    {
+        "name": "智能 路由器",
+        "children": [
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            },
+            {
+                "name": "CyberDog 2 仿生四足机器人",
+                "pic": "/images/category/9.webp"
+            }
+        ]
+    },
+    {
+        "name": "电源 配件",
+        "children": [
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            },
+            {
+                "name": "插座插排",
+                "pic": "/images/category/10.webp"
+            }
+        ]
+    }
+]
