@@ -167,6 +167,7 @@ const activeFirstData = computed(() => {
 .site {
   width: 100%;
   height: 100px;
+  background-color: #fff;
 
   .container {
     width: var(--width);
