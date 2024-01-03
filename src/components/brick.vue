@@ -45,7 +45,11 @@
             </div>
             <h3 class="name">{{ item.name }}</h3>
             <p class="desc">{{ item.desc }}</p>
-            <p class="price">{{ item.price }}元起</p>
+            <p class="price">
+              {{ item.price }}元起<del v-if="item.origin"
+                >{{ item.origin }}元起</del
+              >
+            </p>
           </div>
           <div class="brick-box" v-else>
             <div class="brick-info hover" v-if="!item.notData">
@@ -245,6 +249,10 @@ const activeData = computed(() => {
           text-align: center;
           color: #ff6700;
           font-size: 14px;
+          del {
+            margin-left: 0.5em;
+            color: #b0b0b0;
+          }
         }
       }
       .brick-box {

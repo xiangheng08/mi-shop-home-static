@@ -91,25 +91,19 @@
             <a href="#">服务网点</a>
           </dd>
           <dd>
-            <a href="#">笔记本</a>
-          </dd>
-          <dd>
             <a href="#">授权体验店/专区</a>
-          </dd>
-          <dd>
-            <a href="#">关于小米</a>
           </dd>
         </div>
         <div class="col">
-          <dt>了解小米</dt>
+          <dt>关于小米</dt>
+          <dd>
+            <a href="#">了解小米</a>
+          </dd>
           <dd>
             <a href="#">加入小米</a>
           </dd>
           <dd>
             <a href="#">投资者关系</a>
-          </dd>
-          <dd>
-            <a href="#">笔记本</a>
           </dd>
           <dd>
             <a href="#">可持续发展</a>
@@ -193,6 +187,7 @@
       .col {
         width: 160px;
         margin: 0;
+        line-height: 18px;
         dt {
           margin: -1px 0 26px;
           font-size: 14px;

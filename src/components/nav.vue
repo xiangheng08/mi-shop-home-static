@@ -199,6 +199,7 @@ const showEmptyMsgHandler = () => {
       -webkit-transition: all 0.2s;
       transition: all 0.2s;
       font-size: 12px;
+      z-index: 999;
 
       a {
         position: relative;
@@ -233,7 +234,7 @@ const showEmptyMsgHandler = () => {
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
         transition: height 0.3s;
         overflow: hidden;
-        z-index: 9999;
+        z-index: 1;
 
         &.active {
           height: 100px;

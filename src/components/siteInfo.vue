@@ -154,6 +154,7 @@ onBeforeUnmount(() => {
     width: var(--width);
     margin: 0 auto;
     position: relative;
+    display: flow-root;
     .logo {
       width: 56px;
       height: 56px;
@@ -169,9 +170,11 @@ onBeforeUnmount(() => {
     .info-text {
       color: #b0b0b0;
       padding-left: 77px;
+      line-height: 18px;
       a {
         color: #b0b0b0;
         text-decoration: none;
+        margin-right: 2px;
         &:hover {
           color: var(--active-color);
         }
@@ -179,12 +182,18 @@ onBeforeUnmount(() => {
       .sep {
         margin: 0 0.25em;
       }
+      .sites {
+        a {
+          color: #757575;
+        }
+      }
     }
     .info-links {
       padding-left: 77px;
       height: 28px;
       margin: 4px 0 15px;
       a {
+        margin-right: 0.3em;
         img {
           width: auto;
           height: 28px;

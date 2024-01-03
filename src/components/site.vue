@@ -214,7 +214,7 @@ const activeFirstData = computed(() => {
       justify-self: flex-end;
       transform: translateX(67px);
       background-color: #fff;
-      z-index: 999;
+      z-index: 99;
       position: relative;
 
       .form {
@@ -289,7 +289,7 @@ const activeFirstData = computed(() => {
     height: 0;
     overflow: hidden;
     position: relative;
-    z-index: 998;
+    z-index: 98;
     background-color: #fff;
     .container {
       width: var(--width);
