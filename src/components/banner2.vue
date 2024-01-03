@@ -1,6 +1,6 @@
 <template>
   <div class="banner1">
-    <img src="/images/banner1.webp" alt="" />
+    <img src="/images/banner2.webp" alt="" />
   </div>
 </template>
 

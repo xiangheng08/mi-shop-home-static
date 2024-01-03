@@ -1,0 +1,139 @@
+[
+  {
+    "name": "热门",
+    "children": [
+      {
+        "name": "Redmi K70 Pro",
+        "desc": "第三代骁龙8 年度旗舰平台",
+        "pic": "/images/figure/1.webp",
+        "price": 3299
+      },
+      {
+        "name": "Redmi K70",
+        "desc": "第二代骁龙8 旗舰芯",
+        "pic": "/images/figure/2.webp",
+        "price": 2499
+      },
+      {
+        "name": "Redmi K70E",
+        "desc": "新一代旗舰焊门员",
+        "pic": "/images/figure/3.webp",
+        "price": 1999
+      },
+      {
+        "name": "Xiaomi 14 Pro",
+        "desc": "徕卡Summilux可变光圈镜头｜小米澎湃OS",
+        "pic": "/images/figure/4.webp",
+        "price": 4999
+      },
+      {
+        "name": "Xiaomi 14",
+        "desc": "徕卡光学Summilux镜头｜小米澎湃OS｜第三代骁龙®8移动平台",
+        "pic": "/images/figure/5.webp",
+        "price": 3999
+      },
+      {
+        "name": "Redmi Note 13 Pro",
+        "desc": " 小金刚品质",
+        "pic": "/images/figure/6.webp",
+        "price": 1399,
+        "origin": 1499
+      },
+      {
+        "name": "Redmi K70 Pro",
+        "desc": "第三代骁龙8 年度旗舰平台",
+        "pic": "/images/figure/7.webp",
+        "price": 3299
+      },
+      {
+        "name": "Redmi K70 Pro",
+        "desc": "第三代骁龙8 年度旗舰平台",
+        "pic": "/images/figure/9.webp",
+        "price": 3299,
+        "more": true
+      }
+    ]
+  },
+  {
+    "name": "电视影音",
+    "children": [
+      {
+        "name": "Redmi K70 Pro",
+        "desc": "第三代骁龙8 年度旗舰平台",
+        "pic": "/images/figure/1.webp",
+        "price": 3299
+      },
+      {
+        "name": "Redmi K70E",
+        "desc": "新一代旗舰焊门员",
+        "pic": "/images/figure/3.webp",
+        "price": 1999
+      },
+      {
+        "name": "Xiaomi 14 Pro",
+        "desc": "徕卡Summilux可变光圈镜头｜小米澎湃OS",
+        "pic": "/images/figure/4.webp",
+        "price": 4999
+      },
+      {
+        "more": true,
+        "notData": true
+      }
+    ]
+  },
+  {
+    "name": "空调",
+    "children": [
+      {
+        "name": "Redmi K70 Pro",
+        "desc": "第三代骁龙8 年度旗舰平台",
+        "pic": "/images/figure/1.webp",
+        "price": 3299
+      },
+      {
+        "name": "Xiaomi 14",
+        "desc": "徕卡光学Summilux镜头｜小米澎湃OS｜第三代骁龙®8移动平台",
+        "pic": "/images/figure/5.webp",
+        "price": 3999
+      },
+      {
+        "name": "Redmi K70",
+        "desc": "第二代骁龙8 旗舰芯",
+        "pic": "/images/figure/2.webp",
+        "price": 2499
+      },
+      {
+        "name": "Redmi K70E",
+        "desc": "新一代旗舰焊门员",
+        "pic": "/images/figure/3.webp",
+        "price": 1999
+      },
+      {
+        "name": "Xiaomi 14 Pro",
+        "desc": "徕卡Summilux可变光圈镜头｜小米澎湃OS",
+        "pic": "/images/figure/4.webp",
+        "price": 4999
+      },
+      {
+        "name": "Redmi Note 13 Pro",
+        "desc": " 小金刚品质",
+        "pic": "/images/figure/6.webp",
+        "price": 1399,
+        "origin": 1499
+      },
+      {
+        "name": "Redmi K70 Pro",
+        "desc": "第三代骁龙8 年度旗舰平台",
+        "pic": "/images/figure/7.webp",
+        "price": 3299
+      },
+      {
+        "name": "Redmi K70 Pro",
+        "desc": "第三代骁龙8 年度旗舰平台",
+        "pic": "/images/figure/9.webp",
+        "price": 3299,
+        "more": true
+      }
+    ]
+  }
+]
