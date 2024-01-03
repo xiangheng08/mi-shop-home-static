@@ -3,53 +3,57 @@
     "name": "耳机",
     "children": [
       {
-        "name": "Redmi K70 Pro",
-        "desc": "第三代骁龙8 年度旗舰平台",
+        "name": "Redmi Buds 5 Pro",
+        "desc": "同轴双单元 旗舰音质 | 52dB/4kHz 旗舰降噪 | 49ms 超低延迟",
         "pic": "/images/figure/10.webp",
-        "price": 3299
+        "price": 399
       },
       {
-        "name": "Redmi K70",
-        "desc": "第二代骁龙8 旗舰芯",
+        "name": "Xiaomi Buds 4",
+        "desc": "半入耳主动降噪｜HiFi音质 | 独立空间音频",
         "pic": "/images/figure/17.webp",
-        "price": 2499
+        "price": 499,
+        "origin": 699
       },
       {
-        "name": "Redmi K70E",
-        "desc": "新一代旗舰焊门员",
+        "name": "Redmi Buds 5 AAPE 潮流限定版",
+        "desc": "46dB深度降噪丨12.4mm镀钛动圈丨40小时超长续航",
         "pic": "/images/figure/12.webp",
-        "price": 1999
+        "price": 299
       },
       {
-        "name": "Xiaomi 14 Pro",
-        "desc": "徕卡Summilux可变光圈镜头｜小米澎湃OS",
+        "name": "Xiaomi Buds 4 Pro",
+        "desc": "48dB智能动态降噪｜骨声纹通话降噪 | 独立空间音频",
         "pic": "/images/figure/13.webp",
-        "price": 4999
+        "price": 799,
+        "origin": 1099
       },
       {
-        "name": "Xiaomi 14",
-        "desc": "徕卡光学Summilux镜头｜小米澎湃OS｜第三代骁龙®8移动平台",
-        "pic": "/images/figure/14.webp",
-        "price": 3999
+        "name": "Xiaomi Buds 4",
+        "desc": "半入耳主动降噪｜HiFi音质 | 独立空间音频",
+        "pic": "/images/figure/17.webp",
+        "price": 499,
+        "origin": 699
       },
       {
-        "name": "Redmi Note 13 Pro",
-        "desc": " 小金刚品质",
+        "name": "Xiaomi Buds 3 Pro",
+        "desc": "40dB自适应降噪 ｜空间音频 ｜ HiFi高保真音质",
         "pic": "/images/figure/15.webp",
-        "price": 1399,
-        "origin": 1499
+        "price": 349,
+        "origin": 699
       },
       {
-        "name": "Redmi K70 Pro",
-        "desc": "第三代骁龙8 年度旗舰平台",
+        "name": "Redmi Buds 4 Pro",
+        "desc": "43dB 宽频降噪 | HiFi 高保真音质 | 59ms 游戏低延迟",
         "pic": "/images/figure/16.webp",
-        "price": 3299
+        "price": 319,
+        "origin": 399
       },
       {
-        "name": "Redmi K70 Pro",
+        "name": "Redmi Buds 4活力版",
         "desc": "第三代骁龙8 年度旗舰平台",
         "pic": "/images/figure/9.webp",
-        "price": 3299,
+        "price": 89,
         "more": true
       }
     ]
@@ -58,53 +62,55 @@
     "name": "穿戴",
     "children": [
       {
-        "name": "Redmi K70E",
-        "desc": "新一代旗舰焊门员",
+        "name": "小米手环8 Pro 原神定制版",
+        "desc": "达达利亚主题定制手环 | 主题定制充电底座 | 专属定制礼盒",
         "pic": "/images/figure/18.webp",
+        "price": 549
+      },
+      {
+        "name": "Redmi Watch 4",
+        "desc": "1.97英寸AMOLED大屏丨潮流金属表框丨20天超长续航",
+        "pic": "/images/figure/19.webp",
+        "price": 499
+      },
+      {
+        "name": "Xiaomi Watch S3",
+        "desc": "百变表圈 | 小米澎湃OS | 12通道心率检测模组",
+        "pic": "/images/figure/20.webp",
+        "price": 799
+      },
+      {
+        "name": "小米腕部心电血压记录仪",
+        "desc": "血压测量｜心电采集｜跌倒检测 紧急呼救｜蓝牙通话",
+        "pic": "/images/figure/21.webp",
         "price": 1999
       },
       {
-        "name": "Xiaomi 14 Pro",
-        "desc": "徕卡Summilux可变光圈镜头｜小米澎湃OS",
-        "pic": "/images/figure/19.webp",
-        "price": 4999
-      },
-      {
-        "name": "Redmi K70 Pro",
-        "desc": "第三代骁龙8 年度旗舰平台",
-        "pic": "/images/figure/20.webp",
-        "price": 3299
-      },
-      {
-        "name": "Redmi K70",
-        "desc": "第二代骁龙8 旗舰芯",
-        "pic": "/images/figure/21.webp",
-        "price": 2499
-      },
-      {
-        "name": "Redmi Note 13 Pro",
-        "desc": " 小金刚品质",
+        "name": "小米手环 8 Pro",
+        "desc": "1.74″AMOLED炫彩大屏 | 手表级健康监测 | 独立GNSS定位",
         "pic": "/images/figure/22.webp",
-        "price": 1399,
-        "origin": 1499
+        "price": 379,
+        "origin": 399
       },
       {
-        "name": "Xiaomi 14",
-        "desc": "徕卡光学Summilux镜头｜小米澎湃OS｜第三代骁龙®8移动平台",
+        "name": "Redmi Watch 3 青春版",
+        "desc": "1.83\"超大屏幕｜腕上蓝牙通话｜全天候血氧监测",
         "pic": "/images/figure/23.webp",
-        "price": 3999
+        "price": 299,
+        "origin": 399
       },
       {
-        "name": "Redmi K70 Pro",
-        "desc": "第三代骁龙8 年度旗舰平台",
+        "name": "小米手环8 NFC版",
+        "desc": "多样快拆时尚腕带 | 跑步豆模式 | 体感互动拳击",
         "pic": "/images/figure/24.webp",
-        "price": 3299
+        "price": 249,
+        "origin": 299
       },
       {
-        "name": "Redmi K70 Pro",
+        "name": "小米手环8",
         "desc": "第三代骁龙8 年度旗舰平台",
         "pic": "/images/figure/25.webp",
-        "price": 3299,
+        "price": 209,
         "more": true
       }
     ]

@@ -10,6 +10,8 @@
           :key="index"
           :class="{ show: swiperShow === index }"
         />
+        <div class="button-prev" @click="prev"></div>
+        <div class="button-next" @click="next"></div>
         <div class="swiper-pagination">
           <div
             class="swiper-pagination-bullet"
@@ -100,6 +102,19 @@ const clickSwiper = (index) => {
 
 startSwiper();
 
+const prev = () => {
+  swiperShow.value--;
+  if (swiperShow.value === -1) {
+    swiperShow.value = swiperData.length - 1;
+  }
+};
+const next = () => {
+  swiperShow.value++;
+  if (swiperShow.value === swiperData.length) {
+    swiperShow.value = 0;
+  }
+};
+
 const activeCategory = ref(-1);
 
 const computedWidht = (len) => {
@@ -165,6 +180,37 @@ const channelData = [
         cursor: pointer;
         &.show {
           opacity: 1;
+        }
+      }
+
+      .button-prev,
+      .button-next {
+        position: absolute;
+        top: 50%;
+        width: 41px;
+        height: 69px;
+        margin-top: -35px;
+        z-index: 10;
+        cursor: pointer;
+        outline: none;
+      }
+
+      .button-prev {
+        left: 234px;
+        background: url(//i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png)
+          no-repeat -84px 50%;
+        right: auto;
+        &:hover {
+          background-position: 0 50%;
+        }
+      }
+      .button-next {
+        background: url(//i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png)
+          no-repeat -125px 50%;
+        right: 0;
+        left: auto;
+        &:hover {
+          background-position: -42px 50%;
         }
       }
 
@@ -274,8 +320,9 @@ const channelData = [
         background: #5f5750;
         display: flex;
         flex-wrap: wrap;
+        padding: 1px;
         .channel {
-          width: 77px;
+          width: 76px;
           height: 82px;
           opacity: 0.7;
           color: #fff;

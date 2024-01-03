@@ -175,6 +175,7 @@ onBeforeUnmount(() => {
         color: #b0b0b0;
         text-decoration: none;
         margin-right: 2px;
+
         &:hover {
           color: var(--active-color);
         }
@@ -185,6 +186,9 @@ onBeforeUnmount(() => {
       .sites {
         a {
           color: #757575;
+          &:hover {
+            color: var(--active-color);
+          }
         }
       }
     }
