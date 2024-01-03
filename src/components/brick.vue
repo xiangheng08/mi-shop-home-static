@@ -87,7 +87,7 @@ const props = defineProps({
   },
   promoHeight: {
     type: String,
-    default: "615",
+    default: "614",
   },
 });
 
@@ -166,6 +166,7 @@ const activeData = computed(() => {
   }
   .box {
     display: flex;
+    padding-bottom: 14px;
     .left {
       height: var(--height);
       .single {
@@ -257,13 +258,13 @@ const activeData = computed(() => {
       }
       .brick-box {
         width: 234px;
+        margin-left: 14px;
         margin-bottom: 14px;
         .brick-info,
         .more {
           height: 93px;
           padding-top: 50px;
           width: 234px;
-          margin-left: 14px;
           background: #fff;
           -webkit-transition: all 0.2s linear;
           transition: all 0.2s linear;
@@ -271,7 +272,6 @@ const activeData = computed(() => {
           z-index: 2;
         }
         .brick-info {
-          margin-left: 14px;
           margin-bottom: 14px;
           position: relative;
           .figure {
@@ -334,6 +334,13 @@ const activeData = computed(() => {
           -webkit-transform: translate3d(0, -2px, 0);
           transform: translate3d(0, -2px, 0);
         }
+      }
+
+      & > div:nth-child(5),
+      & > div:nth-child(6),
+      & > div:nth-child(7),
+      & > div:nth-child(8) {
+        margin-bottom: 0;
       }
     }
   }

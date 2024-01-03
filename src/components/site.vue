@@ -166,6 +166,7 @@ const activeFirstData = computed(() => {
 <style scoped lang="scss">
 .site {
   width: 100%;
+  min-width: var(--width);
   height: 100px;
   background-color: #fff;
 

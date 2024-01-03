@@ -62,6 +62,7 @@ import brick4Data from "../data/brick4.json";
 
 <style scoped lang="scss">
 .main {
+  min-width: var(--width);
   padding-top: 4px;
   padding-bottom: 12px;
   .container {

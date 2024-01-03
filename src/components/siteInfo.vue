@@ -149,6 +149,7 @@ onBeforeUnmount(() => {
 .site-info {
   padding: 30px 0;
   font-size: 12px;
+  min-width: var(--width);
   background: #fafafa;
   .container {
     width: var(--width);

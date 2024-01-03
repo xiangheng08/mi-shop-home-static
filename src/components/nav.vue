@@ -101,6 +101,7 @@ const showEmptyMsgHandler = () => {
 <style scoped lang="scss">
 .header {
   width: 100%;
+  min-width: var(--width);
   height: 40px;
   background-color: #333333;
 

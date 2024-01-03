@@ -144,6 +144,7 @@
 <style scoped lang="scss">
 .site-footer {
   width: 100%;
+  min-width: var(--width);
   background-color: #fff;
   .container {
     width: var(--width);

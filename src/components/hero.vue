@@ -160,6 +160,7 @@ const channelData = [
 <style scoped lang="scss">
 .hero {
   width: 100%;
+  min-width: var(--width);
   background-color: #fff;
   padding-bottom: 26px;
   .container {
