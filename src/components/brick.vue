@@ -25,7 +25,7 @@
     <div class="box">
       <div class="left" :style="{ '--height': promoHeight + 'px' }">
         <template v-if="typeof promo === 'string'">
-          <img :src="promo" alt="" class="hover single" />
+          <img :src="withBase(promo)" alt="" class="hover single" />
         </template>
         <div v-else class="img-list">
           <div
@@ -33,7 +33,7 @@
             v-for="(item, index) in promo"
             :key="index"
           >
-            <img :src="item" alt="" />
+            <img :src="withBase(item)" alt="" />
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@
         <template v-for="(item, index) in activeData" :key="index">
           <div class="brick-item hover" v-if="!item.more">
             <div class="figure">
-              <img :src="item.pic" alt="" />
+              <img :src="withBase(item.pic)" alt="" />
             </div>
             <h3 class="name">{{ item.name }}</h3>
             <p class="desc">{{ item.desc }}</p>
@@ -54,7 +54,7 @@
           <div class="brick-box" v-else>
             <div class="brick-info hover" v-if="!item.notData">
               <div class="figure">
-                <img :src="item.pic" alt="" />
+                <img :src="withBase(item.pic)" alt="" />
               </div>
               <h3 class="name">{{ item.name }}</h3>
               <p class="price">{{ item.price }}元起</p>
@@ -77,6 +77,8 @@
 
 <script setup lang="ts">
 import { ref, computed } from "vue";
+import { withBase } from "@/utils";
+
 const props = defineProps({
   title: String,
   more: Boolean,

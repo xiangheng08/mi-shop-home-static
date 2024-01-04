@@ -8,5 +8,10 @@ export default defineConfig(({ command, mode }) => {
   return {
     plugins: [vue()],
     base: ENV.VITE_BASE_URL,
+    resolve: {
+      alias: {
+        "@": "/src",
+      },
+    },
   };
 });

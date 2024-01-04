@@ -1,3 +1,5 @@
-const base = import.meta.env.BASE_UR;
-console.log(base);
-export const withBase = (path) => {};
+const base = import.meta.env.BASE_URL;
+
+export const withBase = (path) => {
+  return (base + "/" + path).replace(/\/+/, "/");
+};

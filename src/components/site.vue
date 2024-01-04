@@ -63,7 +63,7 @@
         >
           <a href="#">
             <div class="pic">
-              <img :src="item.pic" alt="" />
+              <img :src="withBase(item.pic)" alt="" />
             </div>
             <p class="name">{{ item.name }}</p>
             <p class="price">{{ item.price }}</p>
@@ -77,6 +77,7 @@
 <script setup>
 import { ref, computed } from "vue";
 import firstData from "../data/firstData.json";
+import { withBase } from "@/utils";
 
 const navList = ref([
   "Xiaomi手机",

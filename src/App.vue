@@ -18,8 +18,6 @@ import Main from "./components/main.vue";
 import siteFooter from "./components/siteFooter.vue";
 import siteInfo from "./components/siteInfo.vue";
 import toolBar from "./components/toolBar.vue";
-
-console.log(import.meta.env.BASE_URL);
 </script>
 
 <style scoped lang="scss">

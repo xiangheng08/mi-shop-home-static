@@ -4,7 +4,7 @@
       <div class="swiper" @mouseenter="stopSwiper" @mouseleave="startSwiper">
         <img
           class="swiper-item"
-          :src="item"
+          :src="withBase(item)"
           alt=""
           v-for="(item, index) in swiperData"
           :key="index"
@@ -43,7 +43,7 @@
                 v-for="(subItem, index) in item.children"
                 :key="index"
               >
-                <img :src="subItem.pic" :alt="subItem.name" />
+                <img :src="withBase(subItem.pic)" :alt="subItem.name" />
                 <span class="name">{{ subItem.name }}</span>
               </div>
             </div>
@@ -57,7 +57,7 @@
             v-for="(item, index) in channelData"
             :key="index"
           >
-            <img :src="item.pic" alt="" />
+            <img :src="withBase(item.pic)" alt="" />
             {{ item.name }}
           </div>
         </div>
@@ -73,6 +73,7 @@
 
 <script setup>
 import { ref } from "vue";
+import { withBase } from "@/utils";
 import swiperData from "../data/swiper.json";
 import category from "../data/category.json";
 
