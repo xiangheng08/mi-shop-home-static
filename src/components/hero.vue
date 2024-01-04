@@ -232,6 +232,7 @@ const channelData = [
           overflow: hidden;
           background: rgba(0, 0, 0, 0.4);
           opacity: 1;
+          cursor: pointer;
           &.active,
           &:hover {
             background: hsla(0, 0%, 100%, 0.4);

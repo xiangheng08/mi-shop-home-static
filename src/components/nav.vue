@@ -133,7 +133,7 @@ const showEmptyMsgHandler = () => {
     .topbar {
       height: 100%;
       display: flex;
-
+      align-items: center;
       .download-app {
         position: relative;
         z-index: 999;
