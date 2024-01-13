@@ -1,48 +1,25 @@
 <template>
   <div class="hero">
     <div class="container">
-      <div class="swiper" @mouseenter="stopSwiper" @mouseleave="startSwiper">
-        <img
-          class="swiper-item"
-          :src="withBase(item)"
-          alt=""
-          v-for="(item, index) in swiperData"
-          :key="index"
-          :class="{ show: swiperShow === index }"
-        />
+      <div class="swiper" @mouseenter="stopSwiper" @mouseleave="reloadSwiper">
+        <img class="swiper-item" :src="withBase(item)" alt="" v-for="(item, index) in swiperData" :key="index"
+          :class="{ show: swiperShow === index }" />
         <div class="button-prev" @click="prev"></div>
         <div class="button-next" @click="next"></div>
         <div class="swiper-pagination">
-          <div
-            class="swiper-pagination-bullet"
-            v-for="(item, index) in swiperData.length"
-            :key="item"
-            @click="clickSwiper(index)"
-            :class="{ active: swiperShow === index }"
-          ></div>
+          <div class="swiper-pagination-bullet" v-for="(item, index) in swiperData.length" :key="item"
+            @click="clickSwiper(index)" :class="{ active: swiperShow === index }"></div>
         </div>
         <div class="category-list">
-          <div
-            class="category-item"
-            v-for="(item, index) in category"
-            :key="item.name"
-            @mouseenter="activeCategory = index"
-            @mouseleave="activeCategory = -1"
-          >
+          <div class="category-item" v-for="(item, index) in category" :key="item.name"
+            @mouseenter="activeCategory = index" @mouseleave="activeCategory = -1">
             <a href="#">
               {{ item.name }}
               <em class="iconfont-arrow-right-big"></em>
             </a>
-            <div
-              class="children"
-              v-show="activeCategory === index"
-              :style="{ width: computedWidht(item.children.length) + 'px' }"
-            >
-              <div
-                class="item"
-                v-for="(subItem, index) in item.children"
-                :key="index"
-              >
+            <div class="children" v-show="activeCategory === index"
+              :style="{ width: computedWidth(item.children.length) + 'px' }">
+              <div class="item" v-for="(subItem, index) in item.children" :key="index">
                 <img :src="withBase(subItem.pic)" :alt="subItem.name" />
                 <span class="name">{{ subItem.name }}</span>
               </div>
@@ -52,11 +29,7 @@
       </div>
       <div class="hero-sub">
         <div class="left">
-          <div
-            class="channel"
-            v-for="(item, index) in channelData"
-            :key="index"
-          >
+          <div class="channel" v-for="(item, index) in channelData" :key="index">
             <img :src="withBase(item.pic)" alt="" />
             {{ item.name }}
           </div>
@@ -72,53 +45,63 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-import { withBase } from "@/utils";
-import swiperData from "../data/swiper.json";
-import category from "../data/category.json";
+import { ref } from 'vue';
+import { withBase } from '@/utils';
+import swiperData from '../data/swiper.json';
+import category from '../data/category.json';
 
 const swiperShow = ref(0);
+const switchInterval = 5000;
+
+let ins = 1
 
 let timer;
+// 开始轮播
 const startSwiper = () => {
-  timer = setInterval(() => {
-    swiperShow.value++;
-    if (swiperShow.value === swiperData.length) {
-      swiperShow.value = 0;
-    }
-  }, 5000);
+  timer = setInterval(() => next(false), switchInterval);
+  console.log('create', timer);
 };
-
-const stopSwiper = () => clearInterval(timer);
-
-const relaodSwiper = () => {
+// 停止轮播
+const stopSwiper = () => {
+  console.log('clear', timer);
+  clearInterval(timer);
+}
+// 重置轮播
+const reloadSwiper = () => {
   stopSwiper();
   startSwiper();
 };
-
+// 点击轮播
 const clickSwiper = (index) => {
   swiperShow.value = index;
-  relaodSwiper();
+  reloadSwiper();
 };
-
-startSwiper();
-
-const prev = () => {
+// 上一个
+const prev = (s = true) => {
   swiperShow.value--;
   if (swiperShow.value === -1) {
     swiperShow.value = swiperData.length - 1;
   }
+  if (s) {
+    reloadSwiper()
+  }
 };
-const next = () => {
+// 下一个
+const next = (s = true) => {
   swiperShow.value++;
   if (swiperShow.value === swiperData.length) {
     swiperShow.value = 0;
   }
+  if (s) {
+    reloadSwiper()
+  }
 };
+
+startSwiper();
 
 const activeCategory = ref(-1);
 
-const computedWidht = (len) => {
+const computedWidth = (len) => {
   if (len < 7) {
     return 248;
   } else if (len < 15) {
@@ -132,28 +115,28 @@ const computedWidht = (len) => {
 
 const channelData = [
   {
-    name: "保障服务",
-    pic: "/images/channel/1.png",
+    name: '保障服务',
+    pic: '/images/channel/1.png',
   },
   {
-    name: "企业团购",
-    pic: "/images/channel/2.png",
+    name: '企业团购',
+    pic: '/images/channel/2.png',
   },
   {
-    name: "F码通道",
-    pic: "/images/channel/3.png",
+    name: 'F码通道',
+    pic: '/images/channel/3.png',
   },
   {
-    name: "米粉卡",
-    pic: "/images/channel/4.png",
+    name: '米粉卡',
+    pic: '/images/channel/4.png',
   },
   {
-    name: "以旧换新",
-    pic: "/images/channel/5.png",
+    name: '以旧换新',
+    pic: '/images/channel/5.png',
   },
   {
-    name: "话费充值",
-    pic: "/images/channel/6.png",
+    name: '话费充值',
+    pic: '/images/channel/6.png',
   },
 ];
 </script>
@@ -164,13 +147,16 @@ const channelData = [
   min-width: var(--width);
   background-color: #fff;
   padding-bottom: 26px;
+
   .container {
     width: var(--width);
     margin: auto;
+
     .swiper {
       width: 100%;
       height: 460px;
       position: relative;
+
       .swiper-item {
         width: 100%;
         height: 100%;
@@ -180,6 +166,7 @@ const channelData = [
         opacity: 0;
         transition: opacity 0.8s;
         cursor: pointer;
+
         &.show {
           opacity: 1;
         }
@@ -199,18 +186,19 @@ const channelData = [
 
       .button-prev {
         left: 234px;
-        background: url(//i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png)
-          no-repeat -84px 50%;
+        background: url(//i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -84px 50%;
         right: auto;
+
         &:hover {
           background-position: 0 50%;
         }
       }
+
       .button-next {
-        background: url(//i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png)
-          no-repeat -125px 50%;
+        background: url(//i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -125px 50%;
         right: 0;
         left: auto;
+
         &:hover {
           background-position: -42px 50%;
         }
@@ -222,6 +210,7 @@ const channelData = [
         bottom: 20px;
         z-index: 23;
         display: flex;
+
         .swiper-pagination-bullet {
           margin: 0 4px;
           width: 6px;
@@ -233,6 +222,7 @@ const channelData = [
           background: rgba(0, 0, 0, 0.4);
           opacity: 1;
           cursor: pointer;
+
           &.active,
           &:hover {
             background: hsla(0, 0%, 100%, 0.4);
@@ -251,6 +241,7 @@ const channelData = [
         background: rgba(105, 101, 101, 0.6);
         color: #fff;
         padding: 20px 0;
+
         .category-item {
           a {
             padding-left: 30px;
@@ -261,6 +252,7 @@ const channelData = [
             position: relative;
             height: 100%;
             display: block;
+
             em {
               position: absolute;
               top: 12px;
@@ -270,9 +262,11 @@ const channelData = [
               color: #e0e0e0;
             }
           }
+
           &:hover {
             background-color: var(--active-color);
           }
+
           .children {
             position: absolute;
             left: 234px;
@@ -286,6 +280,7 @@ const channelData = [
             flex-direction: column;
             flex-wrap: wrap;
             overflow: hidden;
+
             .item {
               width: 212px;
               height: 36px;
@@ -295,14 +290,17 @@ const channelData = [
               display: flex;
               cursor: pointer;
               transition: color 0.2s;
+
               &:hover {
                 color: var(--active-color);
               }
+
               img {
                 width: 40px;
                 height: 40px;
                 margin-right: 12px;
               }
+
               .name {
                 width: 172px;
                 line-height: 40px;
@@ -315,15 +313,18 @@ const channelData = [
         }
       }
     }
+
     .hero-sub {
       margin-top: 14px;
       display: flex;
+
       .left {
         width: 234px;
         background: #5f5750;
         display: flex;
         flex-wrap: wrap;
         padding: 1px;
+
         .channel {
           width: 76px;
           height: 82px;
@@ -333,9 +334,11 @@ const channelData = [
           font-size: 12px;
           text-align: center;
           cursor: pointer;
+
           &:hover {
             opacity: 1;
           }
+
           img {
             width: 24px;
             height: 24px;
@@ -350,24 +353,29 @@ const channelData = [
             border-right: 1px solid #665e57;
             border-bottom: 1px solid #665e57;
           }
+
           &:nth-child(3) {
             border-right: none;
           }
+
           &:nth-child(4),
           &:nth-child(5) {
             border-right: 1px solid #665e57;
           }
         }
       }
+
       .right {
         flex: 1;
         display: flex;
+
         img {
           width: 316px;
           height: 170px;
           margin-left: 15px;
           transition: box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
           cursor: pointer;
+
           &:hover {
             -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
